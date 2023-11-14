@@ -1,0 +1,61 @@
+/* Generic Background pallete */
+/* This file is strictly for writing colour pallete */
+
+.bg_pastel_white {
+  background: #ebe5dd;
+}
+
+.bg_pastel_blue {
+  background: #7990a6;
+}
+
+.bg_black {
+  color: #232629;
+}
+
+.bg_red {
+  background: #ff5555;
+}
+
+.bg_tango {
+  background: #ff6e55;
+}
+
+.bg_teal {
+  background-color: #2bffb8;
+}
+
+.bg_dark_cyan {
+  background: #414d53;
+}
+
+.bg_dark {
+  background-color: #383d42;
+}
+
+.bg_god {
+  background-color: #282a30;
+}
+
+.bg_royal_purple {
+  background: #5c5cca;
+}
+
+/* Generic Text pallete */
+
+.text_white {
+    color: white;
+  }
+  
+  .text_black {
+    color: #232629;
+  }
+  
+  .text_dark {
+    color: #33393f;
+  }
+  
+  .text_red {
+    color: #ff5555;
+  }
+  

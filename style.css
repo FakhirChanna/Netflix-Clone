@@ -1,0 +1,226 @@
+/* Global Class */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma;
+  list-style: none;
+}
+
+/* BEHOLD! Mortal heed this warnings!  */
+/* thou art is long forgotten hark my words carefully */
+
+/* thou shall hast these for your thyself sake */
+/* thou shall recieve divine blessing from me */
+
+/* may the light shine down upon thou hast fair future */
+/* these are to create HOLY icons */
+
+.icon-small {
+  width: 3em;
+  height: 3em;
+}.icon-medium {
+  width: 5em;
+  height: 5em;
+}.icon-large {
+  width: 8em;
+  height: 8em;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+  margin-bottom: 1000px;
+}
+
+.container {
+  width: 80%;
+}
+
+.position_absolute {
+  position: absolute;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Layout Classes */
+
+.d_flex {
+  display: flex;
+}
+
+.d_block {
+  display: block;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.justify_space_around {
+  justify-content: space-around;
+}
+
+.justify_space_between {
+  justify-content: space-between;
+}
+
+.items_center {
+  justify-content: center;
+  align-items: center;
+}
+
+.items_end {
+  justify-content: end;
+  align-items: end;
+}
+
+.w_10 {
+  width: 10%;
+}
+
+.w_25 {
+  width: 25%;
+}
+
+.w_50 {
+  width: 50%;
+}
+
+.w_75 {
+  width: 75%;
+}
+
+.w_100 {
+  width: 100%;
+}
+
+.rounded {
+  border-radius: 6px;
+}
+
+.rounded_pill {
+  border-radius: 50px;
+}
+
+.b_none {
+  border: none;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_end {
+  text-align: end;
+}
+
+.h_max {
+  height: 100%;
+}
+
+.mt_auto {
+  margin-top: auto;
+}
+
+/*  Buttons classes */
+
+.btn_red {
+  height: 35px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 0px 20px;
+  color: white;
+  background-color: #ff5335;
+  border: 1px solid #ff5335;
+  transition: 370ms;
+}
+
+.btn_red:hover {
+  height: 35px;
+  cursor: pointer;
+  background-color: #bb3e28;
+  border: 1px solid #bb3e28;
+  transition: 370ms;
+}
+.btn_purple {
+  height: 35px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 0px 20px;
+  color: white;
+  background: #5c5cca;
+  border: 1px solid #5c5cca;
+  transition: 330ms;
+}
+
+.btn_purple:hover {
+  height: 35px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  transition: 330ms;
+}
+
+/* input classes */
+
+input {
+  width: 150px;
+  background-color: #e2e2e2;
+  outline: none;
+  text-indent: 10px;
+  font-size: 0.9rem;
+  font-family: "Franklin Gothic Medium";
+  transition: 1s;
+}
+
+.input_sm {
+  height: 35px;
+}
+
+/* Special Classes */
+
+.indexed_navbar {
+  padding: 16px 20px;
+  margin-top: 5px;
+}
+
+.indexed_navbar nav ul {
+  margin: 0;
+}
+
+.indexed_navbar nav ul a {
+  transition: 550ms;
+  font-size: 1.5rem;
+  color: #ff6e55;
+}
+
+.banner {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner_text {
+  color: white;
+  font-weight: 0;
+  margin-top: 3rem;
+}
+
+.banner .banner_text h2 {
+  font-size: 1.9rem;
+  line-height: 3rem;
+}
+
+.banner .banner_text p:nth-child(2) {
+  line-height: 4rem;
+}
